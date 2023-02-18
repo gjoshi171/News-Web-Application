@@ -1,15 +1,21 @@
 
 import './App.css';
+import Form from './components/Form';
+import Navbar from './components/Navbar';
 
-let name = "Gaurav";
+//let name = "Gaurav";
 function App() {
  return(
-    <>
- <div className="container">
-    <h1>Hello {name}</h1>
- </div>
- </>
- )
-}
+ <>
+ <Navbar title= "NewsWebApp"/>
 
+ <div className='container my-8'>
+    
+ <Form heading ="Convert to upperCase"/>
+ </div>
+
+</>
+ );
+}
+ 
 export default App;
