@@ -11,7 +11,7 @@ function App() {
 
  <div className='container my-8'>
     
- <Form heading ="Convert to upperCase"/>
+ <Form heading ="Convert to upperCase or lowerCase"/>
  </div>
 
 </>
